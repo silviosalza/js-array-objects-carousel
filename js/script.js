@@ -117,6 +117,7 @@ nextBtn.addEventListener("click", function next() {
 prevBtn.addEventListener("click", function() {
     nextBtn.classList.remove("hidden");
 
+    infoArray[activeItemIndex].classList.remove("active");
     itemsArray[activeItemIndex].classList.remove("active");
 
      if (activeItemIndex > 0) {
@@ -126,7 +127,7 @@ prevBtn.addEventListener("click", function() {
         activeItemIndex = itemsArray.length - 1
     }
 
-    
+    infoArray[activeItemIndex].classList.add("active");
     itemsArray[activeItemIndex].classList.add("active");
     clearInterval(autoplay)
     autoplay = setInterval(next, 3000)
@@ -139,6 +140,7 @@ let autoplay;
 let next = function() {
     prevBtn.classList.remove("hidden");
 
+    infoArray[activeItemIndex].classList.remove("active");
     itemsArray[activeItemIndex].classList.remove("active");
 
     if (activeItemIndex < itemsArray.length - 1) {
@@ -148,7 +150,8 @@ let next = function() {
         activeItemIndex= 0
 
     }
-    itemsArray[activeItemIndex].classList.add("active");   
+    itemsArray[activeItemIndex].classList.add("active");
+    infoArray[activeItemIndex].classList.add("active");   
 }
 
 autoplay = setInterval(next, 3000)
