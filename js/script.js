@@ -22,29 +22,29 @@
 //creo array degli oggetti
 const gameArray = [{
     titolo: "Spiderman Miles Morales",
-    descrizione:"lorem ipsum",
+    descrizione:"Nella New York della Marvel imperversa una guerra tra un'oscura multinazionale dell'energia e un esercito criminale high-tech. Per impedire che la città soccomba, Miles dovrà imparare cosa significa essere un eroe e scegliere cosa sacrificare per un bene superiore.",
     immagine: "./img/01.webp",
 },
 {
     titolo: "Ratchet & Clank Rift Apart",
-    descrizione:"sdvffv f",
+    descrizione:"Ratchet e Clank sono tornati! Aiutali a impedire che un imperatore robot riesca a sottomettere i mondi interdimensionali, a partire dal loro universo. Il duo potrà contare sull'aiuto di Rivet, una ribelle Lombax proveniente da un'altra realtà.",
     immagine: "./img/02.webp",
 },
     
 {
     titolo: "Fortnite",
-    descrizione:"sfzcefd",
+    descrizione:"Crea, gioca e combatti con gli amici in Fortnite: è gratis! Sopravvivi fino alla fine nelle modalità Battaglia reale e Zero costruzioni, partecipa a concerti o eventi dal vivo, oppure scopri oltre un milione di giochi realizzati dai creatori di Fortnite, inclusi giochi di guida, parkour, sopravvivenza zombi e altro. Trovali tutti su Fortnite!",
     immagine: "./img/03.webp",
 },
     
 {
     titolo: "Stray",
-    descrizione:"dfvsrdfver",
+    descrizione:"Stray è un’avventura in terza persona felina ambientata nell’intrico delle particolareggiate strade a neon di una cybercittà in rovina e nei torbidi luoghi del suo squallido ventre.",
     immagine: "./img/04.webp",
 },
 {
     titolo: "Marvel Avengers",
-    descrizione:"dwfvrverv",
+    descrizione:"Riunisci la squadra dei più forti eroi della Terra, scatena i tuoi poteri e vivi il tuo sogno di supereroe.",
     immagine: "./img/05.webp",
 }
 ];
